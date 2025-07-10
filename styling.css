@@ -1,3 +1,9 @@
+.body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -50,12 +56,19 @@
   transition: background-color 0.3s ease;
 }
 
-.clear {
+.second {
   background-color: white;
+  width: 100%;
+  padding: 60px 0;
+}
+.clear {
   display: flex;
   justify-content: space-around;
-  margin: 60px auto;
-  padding-top: 40px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  gap: 40px;
 }
 
 .action-head {
@@ -78,4 +91,46 @@
   font-weight: bold;
   margin-bottom: 16px;
   color: black; /* or white if background is dark */
+}
+
+.user-head {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  color: #1e1e1e;
+  margin-bottom: 40px;
+}
+.users {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.users > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.purple {
+  background-color: #f3f0ff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  margin: 80px auto;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.numbers {
+  color: #4e47ff;
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
 }
