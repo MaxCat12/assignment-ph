@@ -1,0 +1,81 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  background-image: url("./Media/Hero-bg.png");
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 45px;
+  color: #4e47ff;
+}
+
+.secondary-bg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heading-line {
+  font-size: xx-large;
+  text-align: center;
+  flex-grow: 1; /* allow it to take up the remaining space */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; /* this will center vertically */
+  margin-bottom: 0;
+}
+
+.btn-primary {
+  background-color: #4e47ff;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clear {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  margin: 60px auto;
+  padding-top: 40px;
+}
+
+.action-head {
+  font-size: larger;
+}
+
+.second-page-des {
+  padding: 65px;
+}
+
+.small-img img {
+  border-radius: 25px;
+  display: block;
+  height: 300px;
+  width: 400px;
+}
+
+.h2 {
+  font-size: 36px; /* or any size you prefer */
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: black; /* or white if background is dark */
+}
